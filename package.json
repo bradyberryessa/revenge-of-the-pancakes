@@ -1,0 +1,22 @@
+{
+  "name": "pancakes",
+  "version": "1.0.0",
+  "description": "Revenge of the Pancakes",
+  "main": "index.js",
+  "scripts": {
+    "project": "tsc src/index.ts && node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradyberryessa/revenge-of-the-pancakes.git"
+  },
+  "author": "Brady Berryessa",
+  "license": "ISC",
+  "devDependencies": {
+    "tslint": "^6.1.3",
+    "typescript": "^4.0.2"
+  },
+  "dependencies": {
+    "@types/node": "^14.6.2"
+  }
+}
